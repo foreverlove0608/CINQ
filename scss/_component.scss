@@ -102,6 +102,20 @@ Component
 			}
 		}
 	}
+	&__02{
+		@include font-size(30);
+		font-family: $font-en;
+		font-weight: 600;
+		background: rgba(#7FB645, .2);
+		padding: 16px 27px;
+		position: relative;
+		@include p-before(18px, 20px){
+			background: url(../img/support/before-ttl.png) no-repeat center/100%;
+			left: 0;
+			top: 50%;
+			transform: translateY(-50%);
+		}
+	}
 
 }
 
