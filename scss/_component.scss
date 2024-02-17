@@ -104,15 +104,22 @@ Component
 	}
 	&__02{
 		@include font-size(30);
+		line-height: 1;
 		font-family: $font-en;
 		font-weight: 600;
 		background: rgba(#7FB645, .2);
-		padding: 16px 27px;
+		padding: 26px 27px 22px;
 		position: relative;
+		letter-spacing: 1px;
+		@include mq{
+			@include font-size(25);
+			padding: 30px 27px 23px;
+			letter-spacing: 0;
+		}
 		@include p-before(18px, 20px){
 			background: url(../img/support/before-ttl.png) no-repeat center/100%;
 			left: 0;
-			top: 50%;
+			top: 47%;
 			transform: translateY(-50%);
 		}
 	}
