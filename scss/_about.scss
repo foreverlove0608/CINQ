@@ -180,8 +180,9 @@
 			display: inline-block;
 			min-width: 300px;
 			@include mq{
-				min-width: 345px;
+				width: 345px;
 				margin: 0 auto;
+				display: block;
 			}
 		}
 	}
@@ -205,7 +206,7 @@
 		}
 	}
 	&__left{
-		width: calc(100% - 47.25%);
+		width: calc(100% - 45.25%);
 		color: #fff;
 		padding-top: 17vw;
 		@include mq(ipd){
@@ -256,7 +257,7 @@
 		}
 	}
 	&__right{
-		width: 47.25%;
+		width: 45.25%;
 		position: relative;
 		right: -29px;
 		@include mq(ipd){
@@ -269,6 +270,7 @@
 			margin: 0 auto 45px;
 			right: 0;
 			order: 1;
+			position: static;
 		}
 	}
 	&__benefits{

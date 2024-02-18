@@ -259,9 +259,9 @@
 		}
 		@include p-before(12px, 12px){
 			background: url(../img/support/before-payment.png) no-repeat center/100%;
-			top: 45%;
+			top: 38%;
 			transform: translateY(-50%);
-			left: -15px;
+			left: -20px;
 			@include mq{
 				left: 0;
 				top: 7px;
